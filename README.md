@@ -116,9 +116,4 @@ See `research/README.md` for comprehensive research documentation including:
 3. Commit with clear messages
 4. Push and create a pull request
 
-## License
-[Specify license]
-
-## Contact
-[Team contact information]
 
