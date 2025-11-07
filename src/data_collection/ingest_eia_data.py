@@ -3,10 +3,13 @@ import time
 import json
 import requests
 import pandas as pd
+from dotenv import load_dotenv
 from datetime import datetime
 
-# ---------------- CONFIGURATION ----------------
-API_KEY = "eEtxdrdZCIF4DqfXmiVrLdVbRkOK8vcQdfY1ZQOs"
+
+load_dotenv()
+
+API_KEY = os.getenv("EIA_API_KEY")
 ROOT_URL = "https://api.eia.gov/v2/electricity"
 
 BASE_PARAMS = {
