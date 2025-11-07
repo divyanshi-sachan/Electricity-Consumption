@@ -17,6 +17,7 @@ build/
 *.ipynb_checkpoints
 
 # Data files (keep structure, ignore large files)
+data/raw
 data/raw/*.csv
 data/raw/*.xlsx
 data/raw/*.json
